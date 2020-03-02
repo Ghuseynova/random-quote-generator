@@ -1,3 +1,6 @@
+## you can look at project [here](https://ghuseynova.github.io/random-quote-generator/)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
