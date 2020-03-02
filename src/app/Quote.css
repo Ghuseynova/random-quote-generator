@@ -1,0 +1,38 @@
+.quote {
+}
+
+.quote__text {
+	position: relative;
+	max-width: 45.5rem;
+}
+
+.quote__text::before {
+	content: '\201C';
+	position: absolute;
+	top: -130px;
+	left: -65px;
+	z-index: 0;
+	font-size: 35rem;
+	color: #f3f2f2;
+	line-height: 1;
+}
+.quote__text .text {
+	position: relative;
+	z-index: 1;
+}
+
+.quote__author {
+	position: relative;
+	margin-top: 20px;
+	padding-left: 20px;
+}
+
+.quote__author::before {
+	content: '\2212';
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	color: #d2d2d2;
+	font-size: 2.5rem;
+}

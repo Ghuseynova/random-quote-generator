@@ -1,0 +1,22 @@
+.button {
+	padding: 8px 6px;
+	border: 0;
+	font-size: 1.4rem;
+	font-family: 'Lato';
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.button:focus {
+	outline: none;
+}
+
+.button--blue {
+	background-color: #58c5f0;
+	color: #fff;
+	transition: transform 0.3s ease-in-out;
+}
+
+.button--blue:hover {
+	transform: translateY(-10px);
+}

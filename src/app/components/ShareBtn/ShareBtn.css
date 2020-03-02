@@ -1,0 +1,16 @@
+.share-btn {
+	padding: 8px 14px;
+	background-color: #fff;
+	font-size: 1.6rem;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.share-btn--twitter {
+	color: #02a7e6;
+	transition: transform 0.3s ease-in-out;
+}
+
+.share-btn--twitter:hover {
+	transform: translateY(10px);
+}
